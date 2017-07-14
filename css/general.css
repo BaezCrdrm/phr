@@ -1,3 +1,10 @@
+:root {
+    --main-color: #6e89af;
+    --sec-color:#336699;
+    --base-text-color:#666;
+    --main-base-color:white;
+}
+
 * {
     margin: 0;
     padding: 0;
