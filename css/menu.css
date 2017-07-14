@@ -1,0 +1,20 @@
+.menu li {
+    border-bottom: 1px solid;
+    border-color: var(--sec-color);
+}
+
+.menu li a {
+    width: 100%;   
+    margin-bottom: 5px;   
+}
+
+.menu li a h1 {
+    width: 100%;
+    padding:15px 10px;
+    font-size: 20px;
+    color:white;
+}
+
+.menu li:hover {
+    background-color: var(--sec-color);
+}

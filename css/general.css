@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Avenir-next-regular";
+    src: url("../fonts/AvenirNextLTPro-Regular.otf");
+}
+
 :root {
     --main-color: #6e89af;
     --sec-color:#336699;
@@ -8,4 +13,21 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Helvetica;
+}
+
+a {
+    text-decoration: none;
+}
+
+    a:hover {
+        opacity: 0.6;
+    }
+
+
+.title {
+    float: left;
+    font-family: Helvetica;
+    color: white;
+    font-weight: bolder;
 }
