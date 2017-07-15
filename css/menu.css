@@ -1,18 +1,25 @@
+.menu ul {
+    list-style: none;
+}
+
 .menu li {
     border-bottom: 1px solid;
     border-color: var(--sec-color);
 }
 
 .menu li a {
-    width: 100%;   
-    margin-bottom: 5px;   
+    width: 100%;
 }
 
 .menu li a h1 {
     width: 100%;
-    padding:15px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 20px;
     color:white;
+    font-weight: lighter;
 }
 
 .menu li:hover {
