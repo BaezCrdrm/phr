@@ -3,108 +3,161 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8"/>
         <meta name="description" content="Pablo Herrera Rivera">
-        <meta name="keywords" 
-        content="Pablo,Pablo Herrera,Pablo Herrera Rivera,contador,contador publico,Herrera Rivera,asesoría financiera,arrendamiento,despacho">
+        <meta name="keywords" content="Pablo,Pablo Herrera,Pablo Herrera Rivera,contador,contador publico,Herrera Rivera,asesoría financiera,arrendamiento,despacho">
         <title>Pablo Herrera Rivera</title>
 
         <link rel="stylesheet" href="css/all.css" media="all">
+        <link rel="stylesheet" href="css/main-page.css" media="all">
+        <link rel="stylesheet" href="css/bootstrap.css">
     </head>
     
     <body>
         <header>
-            <!-- <h1 class="title">Pablo Herrera Rivera</h1>
+            <div class="container-fluid">
+                <img class="imgLogo" id="imgLeft" src="img/main_page/ph1.jpg">
+                <img class="imgLogo" id="imgRight" src="img/main_page/logo-circular.png">
+            </div>
 
-            <div class="divImage">
-                <div>
-                    <img class="imgLogo" src="img/main_page/logo.jpg">
-                </div>
-            </div> -->
+            <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" 
+                            data-toggle="collapse" data-target="#navbar-collapse-1"
+                            aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar "></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                    
+                            <a class="navbar-brand" href="#" title="Inicio">
+                                <img class="imgIcon" src="img/main_page/logo-circular.png" alt="Despacho de contadores">
+                            </a>
+                        </div>
+    
+                        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="#">Herrera Rivera Despacho de C.P. S.C.</a></li>
+                                <li><a href="#devices">Asesoría financiera y servicios administrativos</a></li>
+                                <li><a href="#">Servicios inmobiliarios en arrendamiento</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
         </header>
 
         <section id="main">
-            <!-- <nav class="menu">
-                <ul>
-                    <li><a href="#"><h1>Herrera Rivera, Despacho de C.P., S.C.</h1></a></li>
-                    <li><a href="#"><h1>Asesoría Financiera y Servicios Administrativos</h1></a></li>
-                    <li><a href="#"><h1>Servicio Inmobiliario en Arrendamiento</h1></a></li>
-                    <li><a href="#"><h1>Contacto</h1></a></li>
-                    <li><a href="#">Noticias</a></li>
-                </ul>
-            </nav> -->
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
 
-            <!-- <div id="emotion-header"> -->
-                 <!-- <iframe id="frame-slider" src="res/slider/standard.html" />  -->
-                 <!-- <iframe id="frame-slider" />   -->
-            <!-- </div> -->
+                <!-- Text that's gonna be placed over the images -->
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div>
+                            <img class="myImage" src="img/main_page/carousel/img1.png" alt="Image 1" /> 
+                            <div class="carousel-caption">
+                                <h1>Amazing Backgrounds</h1>
+                                <p>Thousands of Backgrounds for Free</p>
+                                <p><a href="#devices" class="btn btn-primary btn-sm">Get them Now</a></p>
+                            </div> 
+                        </div>
+                    </div>
 
-            <!-- <div class="info">
-                <ul>
-                    <li>
+                    <div class="item">
+                        <img class="myImage" src="img/main_page/carousel/img1.png" alt="Image 2" />
+                    </div>
+
+                    <div class="item">
+                        <img class="myImage" src="img/main_page/carousel/arrendamiento1.png" alt="Servicios inmobiliarios en arrendamiento" />
+                    </div>
+                </div>
+
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                         <div class="img-info">
                             <img src="img/main_page/img_icon_arrendamiento.png" /><br>
-                            <a href="#">
-                                Despacho de Contadores Públicos
-                            </a>
+                            <h3><a href="#">Despacho de Contadores Públicos</a></h3>
                         </div>
-                    </li>
+                    </div>
 
-                    <li>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                         <div class="img-info">
-                             <img src="img/main_page/img_icon_asesoriafinanciera.png" /><br> 
-                            <a href="#">
-                                Asesoría financiera y servicios administrativos
+                            <img src="img/main_page/img_icon_asesoriafinanciera.png" /><br>
+                            <h3><a href="#">Asesoría financiera y servicios </h3>
                             </a>
                         </div>
-                    </li>
+                    </div>
 
-                    <li>
+                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
                         <div class="img-info">
                             <img src="img/main_page/img_icon_arrendamiento.png" /><br>
-                            <a href="#">
-                                Servicio inmobiliario en arrendamiento
-                            </a>
+                            <h3><a href="#">Servicio inmobiliario en arrendamiento</a></h3>
                         </div>
-                    </li>
-                </ul>
-            </div> -->
+                    </div>
+                </div>
+            </div>
 
-            <div class="divLinks">
-                <h1>Enlaces externos</h1>
-                <ul>
-                    <li>
-                        <a href="#">
-                            <img class="imgLink" src="img/main_page/shcp.png" alt="Secretaría de Hacienda y Crédito Público">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img class="imgLink" src="img/main_page/sat.png" alt="Servicio de Administración Tributaria">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img class="imgLink" src="img/main_page/imss.png" alt="Instituto Mexicano del Seguro Social">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img class="imgLink" src="img/main_page/imcp.png" alt="Instituto Mexicano de Contadores Públicos">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img class="imgLink" src="img/main_page/ccpx.png" alt="Colegio de Contadores Públicos de Xalapa">
-                        </a>
-                    </li>
-                </ul>
+            <div class="container">
+                <div class="divLinks">
+                    <h1>Enlaces externos</h1>
+                    <ul>
+                        <li>
+                            <a href="https://www.gob.mx/hacienda/">
+                                <img class="imgLink" src="img/main_page/shcp.png" alt="Secretaría de Hacienda y Crédito Público">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.sat.gob.mx/">
+                                <img class="imgLink" src="img/main_page/sat.png" alt="Servicio de Administración Tributaria">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.imss.gob.mx/">
+                                <img class="imgLink" src="img/main_page/imss.png" alt="Instituto Mexicano del Seguro Social">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://imcp.org.mx/">
+                                <img class="imgLink" src="img/main_page/imcp.png" alt="Instituto Mexicano de Contadores Públicos">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://xalapa.ccp.org.mx/">
+                                <img class="imgLink" src="img/main_page/ccpx.png" alt="Colegio de Contadores Públicos de Xalapa">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
 
         <footer>
-            <ul>
-                <li><a href="#">Contacto</a></li>
-                <li><a href="#">Iniciar sesión</a></li>
-            </ul>
+            <div class="well">
+                <ul>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Iniciar sesión</a></li>
+                </ul>
+            </div>
         </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="scripts/bootstrap.js"></script>
     </body>
 </html>

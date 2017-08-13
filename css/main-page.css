@@ -1,0 +1,97 @@
+@media all and (min-width:768px) {
+    .navbar-brand {
+        display: none;
+    }
+
+        .imgLogo {
+            margin:10px;
+        }
+
+            #imgLeft {
+                float: left;
+            }
+
+            #imgRight {
+                float: right;
+            }
+}
+
+@media all and (max-width:767px)
+{
+    header > .container-fluid {
+        display: none;
+    }
+}
+
+/* Header */
+.navbar-toggle.collapsed {
+    border-color:var(--base-color);
+}
+
+.icon-bar {
+    background-color:var(--base-color);
+}
+
+header > .container-fluid {
+    height: 120px;
+}
+
+    .imgLogo {
+        height: 100px;
+    }
+
+    .imgIcon {
+        height: 40px;
+        margin-top:-10px;
+    }
+
+/* Body */
+.myImage {
+    max-height: 578px;
+    width: 100%;
+}
+
+.img-info, .img-info * {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+    .img-info > img {
+        width: 250px;
+    }
+
+        .img-info a, .img-info a:visited {
+            color: var(--base-text-color);
+        }
+
+.divLinks ul{
+    text-align: center;
+}
+
+    .divLinks ul li, footer ul li {
+        display: inline;
+    }
+
+        .divLinks ul li img {
+            margin-top:15px;
+            margin-bottom:15px;
+        }
+
+/* Footer */
+footer {
+    margin-top:30px;
+}
+
+    footer .well {
+        height: 60px;
+        background-color: var(--base-text-color);
+        margin-bottom: 0;
+    }
+
+        footer .well a {
+            color: #fff;
+            margin-left: 5px;
+            margin-right: 10px;
+            float: right;
+        }

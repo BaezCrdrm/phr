@@ -4,7 +4,7 @@
 }
 
 :root {
-    --main-color: #6e89af;
+    --base-color: #6e89af;
     --sec-color:#336699;
     --base-text-color:#666;
     --main-base-color:white;
@@ -23,6 +23,10 @@ a {
     a:hover {
         opacity: 0.6;
     }
+
+.navbar.navbar-default {
+    background-color: #fff;
+}
 
 
 /* .title {
