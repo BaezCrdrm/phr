@@ -36,7 +36,7 @@ header {
         }
 
 #emotion-header, .menu {
-    height: 400px;
+    height: 380px;
 }
 
 #emotion-header {
@@ -44,6 +44,12 @@ header {
     float: left;
     background-color: green;
 }
+
+    #frame-slider {
+        width: 100%;
+        min-height: 380px;
+        border: none;
+    }
 
 .menu {
     width: 30%;
