@@ -1,0 +1,17 @@
+#map {
+    width: 100%;
+    height: 275px;
+}
+
+.jumbotron {
+    margin-top:20px;
+}
+
+.jumbotron ul li {
+    list-style: none;
+}
+
+    .contact-link {
+        text-decoration: none;
+        font-size: 15px;
+    }
