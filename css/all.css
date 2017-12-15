@@ -83,6 +83,10 @@ header > .container-fluid {
     color: var(--sec-color);
 }
 
+.h1_servicios {
+    font-size: 40px !important;
+}
+
     /* Footer */
 footer {
     margin-top:30px;
