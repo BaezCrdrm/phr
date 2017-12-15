@@ -76,6 +76,13 @@ header > .container-fluid {
         margin-top:-10px;
     }
 
+
+    /* Body */
+.herrera-rivera-header-hightlight {
+    font-weight: bold;
+    color: var(--sec-color);
+}
+
     /* Footer */
 footer {
     margin-top:30px;
