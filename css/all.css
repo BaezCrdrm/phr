@@ -78,6 +78,14 @@ header > .container-fluid {
 
 
     /* Body */
+h1 {
+    color:var(--sec-color) !important;
+}
+
+.carousel-caption h1 {
+    color:white !important;
+}
+
 .herrera-rivera-header-hightlight {
     font-weight: bold;
     color: var(--sec-color);
@@ -86,6 +94,76 @@ header > .container-fluid {
 .h1_servicios {
     font-size: 40px !important;
 }
+
+.par_desc {
+    color: var(--base-text-color) !important;
+}
+
+@media (min-width: 0)
+{
+    .myImage {
+        height: 100%;
+        max-height: 300px;
+        width: auto;
+    }
+}
+
+@media (min-width: 512px)
+{
+    .myImage {
+        height: 100%;
+        max-height: 400px;
+        width: auto;
+    }
+}
+
+@media (min-width: 768px)
+{
+    .myImage {
+        height: 100%;
+        max-height: 450px;
+        width: auto;
+    }
+}
+
+@media (min-width: 992px)
+{
+    .myImage {
+        height: 100%;
+        max-height: 500px;
+        width: auto;
+    }
+}
+
+
+/* Carousel */
+#myCarousel {
+    background-color: #6B6B6B;
+}
+
+    .carousel-caption {
+        text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.6)
+    }
+
+    .item {
+        text-align: center;
+    }
+
+
+/* Information section */
+.img-info, .img-info * {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+    .img-info > img {
+        width: 170px;
+    }
+
+    .img-info a, .img-info a:visited, .img-info > p {
+        color: var(--base-text-color);
+    }
 
     /* Footer */
 footer {
